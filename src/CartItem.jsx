@@ -50,7 +50,6 @@ const CartItem = ({ onContinueShopping }) => {
   } else {
     // Remove item if quantity becomes 0
     dispatch(removeItem(item.name));
-  }
   };
 
   const handleRemove = (item) => {
